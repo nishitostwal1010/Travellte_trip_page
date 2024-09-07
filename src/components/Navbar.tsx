@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 landing-bg text-white p-4 border-b-2 border-slate-700 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/trip" className="flex gap-2">
+        <Link href="/" className="flex gap-2">
           <Logo width={60} height={60} />
           <p className="text-2xl font-medium">Travelite</p>
         </Link>
